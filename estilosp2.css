@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label{
+    color: black;
+}
+h1{
+    color: black;
+}
+body{
+    background-color: skyblue;
+}
+
+
+#enviar{
+    background-color: blue;
+    color: aliceblue;
+    width: 20%;
+    margin: 0 auto;
+    display: inline block;
+    
+}
+#form{
+    background-color: yellowgreen;
+}
+
+#registro{
+    color: black;
+}
+
+#usuario{
+    width: 180px;
+}
