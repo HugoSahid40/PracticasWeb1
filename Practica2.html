@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos2.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Encuesta de satisfacción de los asistentes a un evento</h1>
+    <fieldset id="form">
+        <legend id="registro">Encuesta </legend> <br><br>
+            <form action="" method="get" name="login">
+                <label for="">Nombre completo:</label>
+                <input type="text" name="user" id="usuario" placeholder="Ingresa tu nombre completo"> <br><br>
+                <label for="">Correo electronico:</label>
+                <input type="email" name="correo" id="email" placeholder="Ingresa tu correo electronico"> <br><br>
+                <label for="">Edad:</label>
+                <input type="number" name="Edad" id="Date" placeholder="Ingresa tu edad"><br><br>
+                <label for="">Telefono:</label>
+                <input type="text" id="telefono" placeholder="ingresa tu numero de telefono"><br><br>
+                <label for="">En escala del 1 al 10, siendo el 10 mas alto, ¿Como calificarias el evento?</label>
+                <input type="text" id="escala"><br><br>
+                <label for="">Evaluacion del evento:</label>
+                        <select name="evaluacion" id=""><br><br>
+                            <option value="1">Excelente</option>
+                            <option value="2">Bueno</option>
+                            <option value="3">Regular</option>
+                            <option value="4">Malo</option>
+                        </select><br><br>
+                <label for="">¿Que tan util fue el personal del evento?</label>
+                        <select name="evaluacion_personal" id=""><br><br>
+                            <option value="1">Extremadamente util</option>
+                            <option value="2">Muy util</option>
+                            <option value="3">Algo util</option>
+                            <option value="4">No tan util</option>
+                            <option value="5">Malo</option>
+                        </select><br><br>
+                <label for="">¿Recomendarias el evento a tus amigos o compañeros de trabajo?</label><br>
+                <label for="">Si</label>
+                <input type="checkbox" name="si" id="rec">
+                <label for="">No</label>
+                <input type="checkbox" name="no" id="reco"><br><br>
+                <label for="">Comentarios:</label><br><br>
+                <textarea name="" id="" cols="60" rows="10"></textarea><br><br><br><br><br>
+                <input type="submit" value="Enviar" id="enviar">
+    </fieldset>
+    
+    </form>
+    </div>
+    
+    
+</body>
+</html>
