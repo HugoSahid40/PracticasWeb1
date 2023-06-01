@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos1.css">
+    <title>Practica Clase</title>
+</head>
+<body>
+    <script>
+        var max = 100;
+        var min = 0;
+        var numeroA = Math.random()*(max-min)+min;
+        var cuentaErrores=0;
+
+        numeroA=parseInt(numeroA);
+        while(cuentaErrores<10) {
+            var usuario = prompt("Ingrese un numero para adivinar el numero aleatorio");
+        
+
+        if(usuario==numeroA) {
+            alert("El numero es el correcto");
+            alert("Felicidades!!!, lo lograste en " + (cuentaErrores+1) + " intentos")
+            break;
+            
+        }
+
+        else if(usuario=='Terminar'){
+            break;
+        }
+
+        else if(usuario<numeroA) {
+            alert("El numero es mayor que el que ingreso, vuelve a intentarlo");
+        }
+
+        else if(usuario>numeroA) {
+            alert("El numero es menor que el que ingreso,vulve a intentarlo");
+        }
+        cuentaErrores++;
+        }
+    </script>
+</body>
+</html>
